@@ -1,23 +1,22 @@
-import logoRociarte from "../assets/logo-rociarte.jpg";
+import logoRociarte from "../assets/logo-rociarte.png";
 
 export function Logo({ compact = false }: { compact?: boolean }) {
   return (
-    <div className="flex items-center gap-3">
+    <div className="flex flex-col items-center justify-center">
       <img
         src={logoRociarte}
         alt="Logo Rociarte"
-        className={compact ? "h-10 w-auto object-contain" : "h-14 w-auto object-contain"}
+        className={
+          compact
+            ? "h-16 w-auto object-contain"
+            : "h-28 w-auto object-contain"
+        }
       />
 
       {!compact && (
-        <div className="leading-tight">
-          <div className="font-display text-xl font-semibold text-green-dark">
-            Rociarte
-          </div>
-          <div className="text-[10px] uppercase tracking-[0.22em] text-accent">
-            Arte & Naturaleza
-          </div>
-        </div>
+        <span className="mt-1 text-xs uppercase tracking-[0.35em] text-accent">
+          Arte & Naturaleza
+        </span>
       )}
     </div>
   );

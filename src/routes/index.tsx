@@ -56,7 +56,7 @@ function Home() {
               Arte y naturaleza<br />
               <span className="italic text-accent">para expresar</span> sentimientos
             </h1>
-            <p className="mt-6 max-w-lg text-lg text-foreground/75">
+            <p className="mt-6 max-w-lg text-justify text-lg text-foreground/75">
               Materas pintadas a mano y ecosistemas vivos creados con amor para
               cada momento especial.
             </p>
@@ -76,7 +76,7 @@ function Home() {
               </Link>
             </div>
             <div className="mt-10 flex items-center gap-6 text-xs text-muted-foreground">
-              <div><span className="block font-display text-2xl text-green-dark">+500</span>creaciones</div>
+              <div><span className="block font-display text-2xl text-green-dark">+50</span>creaciones</div>
               <div className="h-8 w-px bg-border" />
               <div><span className="block font-display text-2xl text-green-dark">100%</span>artesanal</div>
               <div className="h-8 w-px bg-border" />
@@ -112,7 +112,7 @@ function Home() {
             <h2 className="font-display text-4xl text-green-dark md:text-5xl">
               Pequeños jardines<br /><span className="italic text-accent">con alma propia</span>
             </h2>
-            <p className="mt-5 text-foreground/75">
+            <p className="mt-5 text-justify text-foreground/75">
               En Rociarte nace cada matera como un poema visual: pincelada a pincelada
               creamos pequeños mundos de color y vida para acompañar tus emociones,
               regalos y rincones favoritos del hogar.

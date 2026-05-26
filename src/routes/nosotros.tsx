@@ -19,7 +19,7 @@ const values = [
   { icon: Sparkles, t: "Creatividad", d: "Cada pieza es única y nace de la inspiración." },
   { icon: Heart, t: "Amor", d: "Pintamos con dedicación y cariño." },
   { icon: Sprout, t: "Naturaleza", d: "Respeto profundo por las plantas que cuidamos." },
-  { icon: Award, t: "Calidad", d: "Materiales nobles y acabados artesanales." },
+  { icon: Award, t: "Sostenibilidad", d: "Segundas oportunidades a materiales nobles , rescatados de naturaleza que dan un toque único." },
   { icon: HandHeart, t: "Compromiso", d: "Cumplimos cada pedido con esmero." },
 ];
 
@@ -49,11 +49,11 @@ function About() {
           <div className="space-y-6">
             <div>
               <h3 className="font-display text-2xl text-green-dark">Nuestra misión</h3>
-              <p className="mt-2 text-foreground/75">Crear piezas únicas que conecten a las personas con la naturaleza y con quienes aman, a través del arte hecho a mano.</p>
+              <p className="mt-2 text-justify text-foreground/75">Crear piezas únicas que conecten a las personas con la naturaleza y con quienes aman, a través del arte hecho a mano.</p>
             </div>
             <div>
               <h3 className="font-display text-2xl text-green-dark">Nuestra visión</h3>
-              <p className="mt-2 text-foreground/75">Llevar el arte y la vida vegetal a cada hogar de Colombia, transformando rincones cotidianos en pequeños jardines llenos de sentido.</p>
+              <p className="mt-2 text-justify text-foreground/75">Llevar el arte y la vida vegetal a cada hogar de Colombia, transformando rincones cotidianos en pequeños jardines llenos de sentido.</p>
             </div>
           </div>
         </div>
@@ -62,7 +62,7 @@ function About() {
       <Section eyebrow="Proceso creativo" title="Del barro al jardín" >
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div className="order-2 md:order-1 space-y-5 text-foreground/75">
-            <p>Seleccionamos cada matera, la lijamos, imprimamos y luego damos vida a sus motivos con pinceles finos y acuarela acrílica resistente.</p>
+            <p>Seleccionamos cada matera, la lijamos, diseñamos y luego damos vida a sus motivos con pinceles finos y acuarela acrílica resistente.</p>
             <p>Después escogemos la planta perfecta para acompañarla: una suculenta tímida, un pothos juguetón o un musgo soñador.</p>
             <p>Al final, sellamos cada pieza con amor y se la llevamos a quien la espera.</p>
           </div>

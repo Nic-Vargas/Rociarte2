@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Instagram, Facebook, Mail, Phone, MapPin } from "lucide-react";
+import { Instagram, Mail, Phone, MapPin } from "lucide-react";
 import { Logo } from "./Logo";
 
 export function Footer() {
@@ -8,16 +8,13 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-10 px-6 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
           <Logo />
-          <p className="mt-4 max-w-sm text-sm text-muted-foreground">
+          <p className="mt-4 max-w-sm text-justify text-sm text-muted-foreground">
             Materas pintadas a mano y ecosistemas vivos creados con amor, para llenar tu hogar de
             naturaleza y arte.
           </p>
           <div className="mt-5 flex gap-3">
-            <a href="https://instagram.com" aria-label="Instagram" className="rounded-full bg-muted p-2 text-green-dark transition-transform hover:scale-110">
+            <a href="https://www.instagram.com/rociartevargarden2/" aria-label="Instagram" className="rounded-full bg-muted p-2 text-green-dark transition-transform hover:scale-110">
               <Instagram className="h-4 w-4" />
-            </a>
-            <a href="https://facebook.com" aria-label="Facebook" className="rounded-full bg-muted p-2 text-green-dark transition-transform hover:scale-110">
-              <Facebook className="h-4 w-4" />
             </a>
           </div>
         </div>
@@ -33,7 +30,7 @@ export function Footer() {
         <div>
           <h4 className="mb-3 font-display text-lg text-green-dark">Contacto</h4>
           <ul className="space-y-2 text-sm text-foreground/80">
-            <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 text-accent" /> +57 300 000 0000</li>
+            <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 text-accent" /> +57 317 367 0450</li>
             <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-accent" /> hola@rociarte.co</li>
             <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-accent" /> Colombia</li>
           </ul>

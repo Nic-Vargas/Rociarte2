@@ -19,10 +19,10 @@ export type Product = {
 
 export const products: Product[] = [
   { id: "1", name: "Matera Floral Suculenta", description: "Matera pintada a mano con motivos florales y suculenta.", price: 45000, size: "Pequeña", plant: "Suculenta", category: "Materas personalizadas", location: "Interior", image: p1 },
-  { id: "2", name: "Ecosistema Bosque Sereno", description: "Terrario en vidrio con musgo, piedras y mini plantas.", price: 95000, size: "Mediana", plant: "Musgo", category: "Ecosistemas vivos", location: "Interior", image: p2 },
-  { id: "3", name: "Matera Nombre Personalizado", description: "Terracota con tu nombre y hojas pintadas a mano.", price: 60000, size: "Mediana", plant: "Pothos", category: "Materas personalizadas", location: "Interior", image: p3 },
-  { id: "4", name: "Cactus Hojas Acuarela", description: "Mini cactus en matera blanca con diseño botánico.", price: 38000, size: "Pequeña", plant: "Cactus", category: "Plantas de interior", location: "Interior", image: p4 },
-  { id: "5", name: "Pothos Colgante Macramé", description: "Pothos en matera artesanal con macramé natural.", price: 78000, size: "Mediana", plant: "Pothos", category: "Interior/Exterior", location: "Ambos", image: p5 },
+  { id: "2", name: "Ecosistema Bosque Sereno", description: "Terrario en vidrio con musgo, piedras y mini plantas.", price: 95000, size: "Mediana", plant: "Bonsái", category: "Ecosistemas vivos", location: "Interior", image: p2 },
+  { id: "3", name: "Matera Nombre Personalizado", description: "Terracota con tu nombre y hojas pintadas a mano.", price: 60000, size: "Mediana", plant: "Cactus", category: "Materas personalizadas", location: "Interior", image: p3 },
+  { id: "4", name: "Cactus Hojas Acuarela", description: "Mini cactus en matera blanca con diseño botánico.", price: 38000, size: "Pequeña", plant: "Flores", category: "Plantas de interior", location: "Interior", image: p4 },
+  { id: "5", name: "Pothos Colgante Macramé", description: "Pothos en matera artesanal con macramé natural.", price: 78000, size: "Mediana", plant: "Frutal", category: "Interior/Exterior", location: "Ambos", image: p5 },
   { id: "6", name: "Lavanda Jardín Terracota", description: "Lavanda fresca en matera grande para exteriores.", price: 110000, size: "Grande", plant: "Lavanda", category: "Plantas de exterior", location: "Exterior", image: p6 },
 ];
 
