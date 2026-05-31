@@ -60,7 +60,7 @@ function Products() {
             </Field>
 
             <Field label={`Precio máx: $${price.toLocaleString("es-CO")}`}>
-              <input type="range" min={30000} max={150000} step={5000} value={price} onChange={(e) => setPrice(+e.target.value)} className="w-full accent-[color:var(--green-dark)]" />
+              <input type="range" min={30000} max={300000} step={5000} value={price} onChange={(e) => setPrice(+e.target.value)} className="w-full accent-[color:var(--green-dark)]" />
             </Field>
 
             <Field label="Tipo de planta">
@@ -71,7 +71,7 @@ function Products() {
               <Select value={loc} onChange={setLoc} options={["", "Interior", "Exterior", "Ambos"]} labels={["Todas", "Interior", "Exterior", "Interior/Exterior"]} />
             </Field>
 
-            <button onClick={() => { setSize(""); setPrice(150000); setPlant(""); setLoc(""); setCat(""); }} className="mt-4 w-full rounded-full border border-border py-2 text-sm hover:bg-muted">
+            <button onClick={() => { setSize(""); setPrice(300000); setPlant(""); setLoc(""); setCat(""); }} className="mt-4 w-full rounded-full border border-border py-2 text-sm hover:bg-muted">
               Limpiar
             </button>
           </aside>
