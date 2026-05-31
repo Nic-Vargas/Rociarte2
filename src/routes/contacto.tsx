@@ -64,7 +64,7 @@ function Contact() {
 
           <div className="space-y-5">
             <InfoCard icon={MessageCircle} title="WhatsApp directo" text="Escríbenos para coordinar tus pedidos personalizados. Respondemos rápido y con cariño.">
-              <a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex rounded-full bg-green-dark px-5 py-2 text-xs font-medium text-primary-foreground">Abrir WhatsApp →</a>
+              <a href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F%2B573173670450%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQPOTM2NjE5NzQzMzkyNDU5AAGnE3dBo2_UkrmR0zdPx2EzEfGAI7rFYcmEabDTUx8i8esZEhNzkyxG_ldCSHw_aem_4TxR9wxOYxac0u_CVaoy3w&e=AUDhAXDdsXfnqVYmyD7nP_x8CKc6jR0xzoeOHT7NWpSq12YU8HJDAiJVTx04h2N8Y1_8NJFobM_AqB-bw8y5EaAYCS2HbXRxGz-g7Agdxgry7pGqLZ3K2m70oKvu8V_jDpb16Pk" target="_blank" rel="noopener noreferrer" className="mt-3 inline-flex rounded-full bg-green-dark px-5 py-2 text-xs font-medium text-primary-foreground">Abrir WhatsApp →</a>
             </InfoCard>
 
             <InfoCard icon={Smartphone} title="Métodos de pago">
