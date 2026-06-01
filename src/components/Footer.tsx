@@ -31,8 +31,8 @@ export function Footer() {
           <h4 className="mb-3 font-display text-lg text-green-dark">Contacto</h4>
           <ul className="space-y-2 text-sm text-foreground/80">
             <li className="flex items-start gap-2"><Phone className="mt-0.5 h-4 w-4 text-accent" /> +57 317 367 0450</li>
-            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-accent" /> hola@rociarte.co</li>
-            <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-accent" /> Colombia</li>
+            <li className="flex items-start gap-2"><Mail className="mt-0.5 h-4 w-4 text-accent" /> oicor1968jlnc@gmail.com</li>
+            <li className="flex items-start gap-2"><MapPin className="mt-0.5 h-4 w-4 text-accent" /> Outlets Arauco Sopó </li>
           </ul>
         </div>
       </div>
